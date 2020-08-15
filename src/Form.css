@@ -1,0 +1,74 @@
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-image: url(./images/spacex.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input_data {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main_text {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}
+
+.text_items {
+  font-weight: normal;
+  text-shadow: 1px 1px white,
+               2px 2px #777;
+  color: black;
+  transition: all 1s;
+}
+
+input {
+  margin: 26px 0;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  padding: 8px 24px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+  padding: 12px 36px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  background-color: rgb(211, 211, 211);
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.launches_container {
+  position: absolute;
+  left: 0;
+  top: 60%;
+  height: 250px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.rocket_image {
+  width: 100px;
+  height: 80px;
+}
